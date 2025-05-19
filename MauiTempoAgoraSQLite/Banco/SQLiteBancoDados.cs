@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MauiTempoAgoraSQLite.Models;
+using SQLite;
 
 namespace MauiTempoAgoraSQLite.Banco
 {
     internal class SQLiteBancoDados
     {
+        readonly SQLiteAsyncConection _con;
+
+
+
     }
 }
